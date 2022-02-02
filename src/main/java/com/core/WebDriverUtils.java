@@ -42,6 +42,7 @@ public class WebDriverUtils {
 	                        BaseVariables.getInstance().setWebdriver(new ChromeCapabilities().setChromeCapabilities());		                        
 	                        break;
 	                        default:
+					 	System.out.println("Hi therweee");
 	                        throw new IllegalArgumentException("The Browser Name is Undefined");
 	                        }
 	        	
