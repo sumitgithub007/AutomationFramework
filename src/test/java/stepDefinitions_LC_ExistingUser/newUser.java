@@ -13,6 +13,7 @@ public class newUser extends SeleniumFunctions {
 
 
 		try {
+			System.out.print("Hi Iam just checking jenkins");
 			NavigateToURL(TestProperties.getInstance().getEmailUrl());
 			LoadApplication();
 		} catch (Exception e) {
