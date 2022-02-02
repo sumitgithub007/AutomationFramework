@@ -23,12 +23,12 @@ jobs:
       - checkout
       # Use mvn clean and package as the standard maven build phase
       - run:
-          working_directory: /home/circleci/project/CircleSumit/
+          working_directory: /home/circleci/project/
           name: Build
           command: mvn clean 
       # Then run your tests! 
       - run:
-          working_directory: /home/circleci/project/CircleSumit/ 
+          working_directory: /home/circleci/project/ 
           name: Test  
           command: mvn test 
   
